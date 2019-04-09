@@ -6,14 +6,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.io.*;
-import java.util.Scanner;
 
 /**
  * 使用卡片布局实现多图浏览
  */
 public class ImageViewerFrame extends JFrame implements ActionListener {
-    private JButton chooseBtn, preBtn, nextBtn;
+    private JButton chooseBtn, preBtn, nextBtn, fisBtn, finBtn;
     private JFileChooser fileChooser;
     private JPanel centerPanel, bottomPanel;
     private CardLayout cardLayout;
@@ -32,13 +33,19 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
         chooseBtn = new JButton("选择图片");
         preBtn = new JButton("前一张");
         nextBtn = new JButton("后一张");
+        fisBtn = new JButton("第一张");
+        finBtn = new JButton("最后一张");
         bottomPanel = new JPanel();
+        bottomPanel.add(fisBtn);
         bottomPanel.add(preBtn);
         bottomPanel.add(chooseBtn);
         bottomPanel.add(nextBtn);
+        bottomPanel.add(finBtn);
         preBtn.addActionListener(this);
         chooseBtn.addActionListener(this);
         nextBtn.addActionListener(this);
+        fisBtn.addActionListener(this);
+        finBtn.addActionListener(this);
         add(bottomPanel, BorderLayout.SOUTH);
         //创建中间面板,加入卡片布局
         centerPanel = new JPanel();
@@ -70,17 +77,18 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
                 File[] files = fileChooser.getSelectedFiles();
                 for (File f : files) {
                     //对每个f,创建字节输入流读入字节数组,构建icon,设置给jlabel
+                    byte[] bytes = null;
                     try {
                         InputStream in = new FileInputStream(f);
-                        byte[] bytes = new byte[(int) f.length()];
+                        bytes = new byte[(int) f.length()];
                         in.read(bytes);
-                        Icon icon = new ImageIcon(bytes);
-                        JLabel jLabel = new JLabel();
-                        jLabel.setIcon(icon);
-                        centerPanel.add(jLabel);
                     } catch (IOException ex) {
                         ex.printStackTrace();
                     }
+                    Icon icon = new ImageIcon(bytes);
+                    JLabel imgLabel = new JLabel();
+                    imgLabel.setIcon(icon);
+                    centerPanel.add(imgLabel);
                 }
             }
         }
@@ -90,6 +98,12 @@ public class ImageViewerFrame extends JFrame implements ActionListener {
         }
         if (e.getSource() == nextBtn) {
             cardLayout.next(centerPanel);
+        }
+        if (e.getSource() == fisBtn) {
+            cardLayout.first(centerPanel);
+        }
+        if (e.getSource() == finBtn) {
+            cardLayout.last(centerPanel);
         }
 
     }
