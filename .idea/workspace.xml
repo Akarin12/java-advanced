@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a773b94-b744-40db-9792-adfd9615d460" name="Default Changelist" comment="2019.4.2.1">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swing-study/src/com.soft1841.swing/BigWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/Admission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/CarouselFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/LocalImgCarousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/TicketThreadTestI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/TicketThreadTestII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/src/com/soft1841/ts/TicketThreadTestIII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-study/thread-study.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="4a773b94-b744-40db-9792-adfd9615d460" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swing-study/src/com.soft1841.swing/ImageViewerFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/swing-study/src/com.soft1841.swing/ImageViewerFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -225,7 +214,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,6 +391,8 @@
       <workItem from="1554767297087" duration="11301000" />
       <workItem from="1554808015641" duration="3782000" />
       <workItem from="1554849695880" duration="513000" />
+      <workItem from="1554850275358" duration="55000" />
+      <workItem from="1554935182504" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="进制">
       <created>1552354931194</created>
@@ -439,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554170182055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2019.4.10">
+      <created>1554850300594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554850300594</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123073000" />
+    <option name="totallyTimeSpent" value="123195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +455,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.14978679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.15298508" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.17004265" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -498,7 +495,8 @@
     <MESSAGE value="2019.3.26" />
     <MESSAGE value="2019.4.2" />
     <MESSAGE value="2019.4.2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019.4.2.1" />
+    <MESSAGE value="2019.4.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.4.10" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
