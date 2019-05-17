@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a773b94-b744-40db-9792-adfd9615d460" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jdbc-study/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +39,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="756">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java">
+        <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -75,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/i-o/src/com/soft1841/io/ThreeFloder.java" />
-        <option value="$PROJECT_DIR$/i-o/src/com/soft1841/io/TenFloder.java" />
         <option value="$PROJECT_DIR$/i-o/src/com/soft1841/io/FileCopy.java" />
         <option value="$PROJECT_DIR$/i-o/src/com/soft1841/io/TxtCopy.java" />
         <option value="$PROJECT_DIR$/i-o/src/com/soft1841/io/StringWrite.java" />
@@ -126,6 +147,8 @@
         <option value="$PROJECT_DIR$/jdbc-study/pom.xml" />
         <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java" />
         <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java" />
+        <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java" />
+        <option value="$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java" />
       </list>
     </option>
   </component>
@@ -155,8 +178,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1032" />
-    <option name="width" value="895" />
+    <option name="x" value="-7" />
+    <option name="width" value="1194" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -167,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,6 +231,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -275,33 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JDBCDemo2">
-    <configuration name="AliLoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.AliLoginFrame" />
-      <module name="gui-form" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloudMusicFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.gui.CloudMusicFrame" />
-      <module name="gui-form" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.JDBCDemo4">
     <configuration name="ImageReaderFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.ImageReaderFrame" />
       <module name="i-o" />
@@ -341,13 +338,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JDBCDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo3" />
+      <module name="jdbc-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.jdbc.JDBCDemo4" />
+      <module name="jdbc-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCDemo4" />
+        <item itemvalue="Application.JDBCDemo3" />
         <item itemvalue="Application.JDBCDemo2" />
         <item itemvalue="Application.JDBCDemo1" />
         <item itemvalue="Application.ImageReaderFrame" />
-        <item itemvalue="Application.CloudMusicFrame" />
-        <item itemvalue="Application.AliLoginFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -440,7 +463,10 @@
       <workItem from="1557844419026" duration="725000" />
       <workItem from="1557845489172" duration="6000" />
       <workItem from="1557873740525" duration="461000" />
-      <workItem from="1557959400771" duration="242000" />
+      <workItem from="1557959400771" duration="462000" />
+      <workItem from="1557968117512" duration="21000" />
+      <workItem from="1558005363007" duration="1562000" />
+      <workItem from="1558046674194" duration="285000" />
     </task>
     <task id="LOCAL-00001" summary="进制">
       <created>1552354931194</created>
@@ -505,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557874120436</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="jdbc2">
+      <created>1557959849461</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557959849461</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177208000" />
+    <option name="totallyTimeSpent" value="179296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,8 +555,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978308" visible="true" weight="0.17110874" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978308" weight="0.17270789" />
       <window_info id="Structure" order="1" sideWeight="0.5021692" side_tool="true" weight="0.12793177" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -598,30 +632,14 @@
     <MESSAGE value="2019.4.11" />
     <MESSAGE value="2019.4.24" />
     <MESSAGE value="jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc" />
+    <MESSAGE value="jdbc2" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc2" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../java-programming-training/src/com/soft1841/jpt/io/BufferedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_bm90j6qrjnz322/FileStorage/File/2019-04/ViewImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/awt/event/MouseListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -988,15 +1006,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="756">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jdbc-study/src/main/java/com/soft1841/jdbc/JDBCDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
